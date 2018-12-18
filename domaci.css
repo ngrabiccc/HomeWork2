@@ -1,4 +1,4 @@
-.container{
+﻿.container{
     max-width: 625px;
     position: absolute;
     left: 30%;
@@ -6,10 +6,11 @@
 p{
     color: white;
     font-size: 15px;
+    font-family: 'Roboto', serif;
     
 }
 .naslov{
-    
+    font-family: 'Merriweather', serif;
     margin-bottom: 22px;
     padding-top: 28px;
     color: white;
