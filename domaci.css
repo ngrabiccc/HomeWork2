@@ -1,109 +1,65 @@
 ﻿.container{
     max-width: 625px;
-    position: absolute;
-    left: 30%;
+    margin: 0 auto;
 }
+.naslov{
+    font-family: 'Merriweather', serif;
+    border-top: 30px solid transparent;
+    color: white;
+    font-weight: 900;
+    margin: 0;
+}
+
 p{
     color: white;
     font-size: 15px;
     font-family: 'Roboto', serif;
     font-weight: 400;
-    
-}
-.naslov{
-    font-family: 'Merriweather', serif;
-    margin-bottom: 22px;
-    padding-top: 28px;
-    color: white;
-    font-weight: 900;
+    border-bottom: 30px solid transparent;
+   transform: translateY(-4px);
+ 
 }
 
 /*Žuta slika*/
 .zutaslika{
-    background-image: url("C:/Users/Nikola/Desktop/domaci/žuta.jpg");
+    background: url("žuta.jpg");
     background-size: cover;
     padding-left: 25px;
-    height: 269px;
-    margin-bottom: 25px;
-}
-.prvired{
-    display: inline;
-    position: absolute;
-    top: 196px;
+    width: 625px;
+    height: 263px;
+   border-bottom: 25px solid white;
 
-}
-.drugired{
-    display: inline;
-    position: absolute;
-    top: 239px;
-}
-.botuni{
-    padding: 8px;
-    font-size: 15px;
-    letter-spacing: 0.4px;
-    background-color: inherit;
-    margin-left: 10px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    background: rgba(255, 255, 255, 0.4);
-     color:white;
-     
 }
 
 /*Roza slika*/
 .ljubicastaslika{
-    background: url("C:/Users/Nikola/Desktop/domaci/roza.jpg");
+    background: url("roza.jpg");
     background-size: cover;
     padding-left: 25px;
-    height: 250px;
-    
-}
-.prvired2{
-    display: inline;
-    position: absolute;
-    top: 471px;
-}
-.drugired2{
-    display: inline;
-    position: absolute;
-    top: 515px; 
-}
-.botuni2{
-    padding: 8px;
-    font-size: 15px;
-    letter-spacing: 0.4px;
-    background-color: inherit;
-    margin-left: 10px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    background: rgba(255, 255, 255, 0.4);
-     color: white;
+   width: 625px;
+   height: 246px;
+  border-bottom: 25px solid white;
 }
 
 /*slika telefona*/
 .slikatelefona{
-    background: url("C:/Users/Nikola/Desktop/domaci/telefon.jpg");
+    background: url("telefon.jpg");
     background-size: cover;
     padding-left: 25px;
-    height: 247px;
-    margin-top: 25px;
-    
+    width: 625px;
+    height: 246px;
+    border-bottom: 25px solid white;
 }
-.prvired3{
-    display: inline;
-    position: absolute;
-    top: 735px;
-}
-.drugired3{
-    display: inline;
-    position: absolute;
-    top: 777px;
-}
-.botuni3{
+/*Sadrzaj slika*/
+.blok{
+    display: inline-block;
+    max-width: 570px;
+ transform: translateY(-20px)
+ }
+
+.botuni{
     padding: 8px;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 0.4px;
     background-color: inherit;
     margin-left: 10px;
@@ -111,7 +67,6 @@ p{
     margin-bottom: 10px;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.4);
-     color: white;
-}
-
-
+    color:white;
+    border: 2px solid transparent;
+ }
